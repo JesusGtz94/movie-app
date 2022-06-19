@@ -1,0 +1,27 @@
+#topMenuContainer{
+    background-color: #1a1a1a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categoryName{
+    color: white;
+    font-weight: bold;
+    margin: 0.5rem;
+    background-color: transparent;
+    font-size: 1rem;
+    border-width: 0rem;
+}
+
+.categoryName:hover{
+    color: blueviolet;
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+.selectedCategory{
+    color: blueviolet;
+    cursor: pointer;
+    transform: scale(1.2)
+}

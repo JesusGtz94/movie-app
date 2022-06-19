@@ -1,0 +1,63 @@
+#searchBarContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+@media(max-width: 700px){
+    #searchBarContainer{
+        flex-direction: column-reverse;
+    }
+}
+
+#searchBarContainer label {
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#searchBarContainer input {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background-color: rgb(41, 41, 41);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+#searchBarContainer button {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background-color: rgb(41, 41, 41);
+    padding: 1.2rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#searchBarContainer button:hover {
+    color: rgb(211, 211, 211);
+    background-color: rgb(23, 23, 23);
+    cursor: pointer;
+
+}
+
+#selectContainer{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 700px){
+    #selectContainer{
+        margin-top: 1rem;
+    }
+}
+
+
+
+#selectContainer select{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background-color: rgb(41, 41, 41);
+    padding: 1rem;
+    border-radius: 15px;
+}
